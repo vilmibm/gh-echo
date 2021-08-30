@@ -1,5 +1,3 @@
 #!/bin/bash
 
-extensionPath="$(dirname $(realpath $0))"
-
-go run "$extensionPath/main.go" "$@"
+echo "$@"
